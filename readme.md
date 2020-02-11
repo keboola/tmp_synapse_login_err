@@ -59,7 +59,7 @@ Login failed for user 'MY_USER9'.
    at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
    at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
    at System.Data.SqlClient.SqlConnection.Open()
-   at sqltest.Program.testLoginAsMyUser() in /home/zajca/Code/php/keboola/synapse-err/Program.cs:line 36
+   at sqltest.Program.testLoginAsMyUser() in /Program.cs:line 36
 ClientConnectionId:1540c2ea-b7da-4507-a8ab-911ed69c37c9
 Error Number:916,State:2,Class:14
 EXEC sp_droprolemember MY_ROLE9, MY_USER9
