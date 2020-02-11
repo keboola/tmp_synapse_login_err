@@ -1,6 +1,17 @@
 # Example .NET sysnapse issue 120012822003194
 
-# RUN
+## CONFIGURE
+
+set up constants in Program.cs
+
+```
+public const String Database = "<db>"; // synapse database name
+public const String DataSource = "<host>"; // synapse host <>.database.windows.net
+public const String UserPID = "<user>"; // user pid
+public const String Password = "<pass>"; // user password
+```
+
+## RUN
 
 ```
 dotnet restore
